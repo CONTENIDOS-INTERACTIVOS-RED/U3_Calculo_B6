@@ -77,28 +77,21 @@
       .col-lg-7.order-lg-1(data-aos="fade-left")
         p La regla de la potencia es una de las reglas fundamentales para calcular derivadas y se aplica a funciones de la forma f(x) = xn, donde n es un número real. Según esta regla, la derivada de xn es:
         div.bg-color-8.p-4.text-center.mb-3
-          h5.mb-0 d/dx xn = nx (n-1)
+          img(src="@/assets/curso/tema2/3-1.svg", style="max-width: 133px").mx-auto
         p En otras palabras, para derivar una función potencia, se multiplica el exponente por la base y luego se reduce el exponente en una unidad.
         p Por ejemplo, considere la función f(x) = x5. Aplicando la regla de la potencia, se obtiene:
         div.bg-color-8.p-4.text-center.mb-3
-          h5.mb-0 f'(x) = d/dx x5 = 5x(5-1) = 5x4
-        p Es importante tener en cuenta que esta regla también se aplica a exponentes negativos y racionales. 
+          img(src="@/assets/curso/tema2/3-2.svg", style="max-width: 239px").mx-auto
+    p Es importante tener en cuenta que esta regla también se aplica a exponentes negativos y racionales. 
     
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/4.png", data-aos="zoom-in")
       .col-lg-8(data-aos="fade-left")
-        div.bg-color-2.p-5.h-100.mb-3
+        div.bg-color-2.p-4.h-100.mb-3
           p Por ejemplo, si g(x) = x-3, entonces:
-          p.mb-0.text-bold.text-center g'(x) = d/dx x-3
-          p.mb-0.text-bold.text-center = -3x-3-1
-          p.mb-0.text-bold.text-center = -3x-4 
-          p.mb-0.text-bold.text-center = -3/x4
-          p.mb-0.text-bold.text-center Y si h(x) = x2/3, entonces:
-          p.mb-0.text-bold.text-center h'(x) = d/dx x2/3
-          p.mb-0.text-bold.text-center = (2/3)x(2/3-1)
-          p.mb-0.text-bold.text-center = (2/3)x-1/3
+          img(src="@/assets/curso/tema2/3-3.svg", style="max-width: 207px").mx-auto
     
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0.order-lg-2
@@ -115,9 +108,7 @@
       .col-lg-8(data-aos="fade-left")
         div.bg-color-1.p-4.h-100.mb-3
           p Para determinar la tasa de cambio de la producción en cualquier momento dado, se puede derivar esta función utilizando la regla de la potencia:
-          p.mb-0.text-bold.text-center P'(t) = d/dt 500t<sup>2/3</sup>
-          p.mb-0.text-bold.text-center = 500 × (2/3)t-1/3
-          p.text-bold.text-center = (1000/3)t-1
+          img.mb-3(src="@/assets/curso/tema2/6-1.svg", style="max-width: 162px").mx-auto
           p Esta función derivada P'(t) indica la tasa a la que está cambiando la producción en cualquier mes específico. Por ejemplo, si se desea conocer la tasa de cambio de la producción al cabo de 8 meses, se evaluaría P'(8):
           p.text-bold.text-center P'(8) = (1000/3) × 8-1/3 ≈ 83.14
           p Esto significa que, al octavo mes, la producción está aumentando a una tasa de aproximadamente 83.14 unidades por mes. Este tipo de análisis puede ayudar a los administradores a comprender la dinámica del crecimiento de la producción y tomar decisiones informadas sobre la planificación de la capacidad y la asignación de recursos. 
@@ -126,10 +117,10 @@
       h2 #[span 2.2] Regla de la suma y la resta
     
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/7.png", data-aos="zoom-in")
-      .col-lg-8.order-1.mb-3.mb-lg-0
+      .col-lg-8.order-lg-1
         p(data-aos="fade-left") La regla de la suma y la resta nos permite derivar funciones que son la suma o diferencia de otras funciones. Si f(x) y g(x) son funciones derivables, entonces la derivada de su suma o diferencia es igual a la suma o diferencia de sus derivadas individuales:
     
         .bg-color-8.p-4.mb-3(data-aos="fade-left")
@@ -198,10 +189,10 @@
     p.mb-4 La regla del producto y del cociente nos permite derivar funciones que son el producto o cociente de otras funciones. Si f(x) y g(x) son funciones derivables, entonces:
 
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/12.png", data-aos="zoom-in")
-      .col-lg-8.order-1.mb-3.mb-lg-0
+      .col-lg-8.order-lg-1
         p(data-aos="fade-left") La regla del producto establece que la derivada de un producto de funciones es igual a:
     
         .bg-color-8.p-4.mb-3(data-aos="fade-left")
@@ -230,10 +221,10 @@
           img(src="@/assets/curso/tema2/13-2.svg", style="max-width: 500px").mx-auto
 
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/14.png", data-aos="zoom-in")
-      .col-lg-8.order-1.mb-3.mb-lg-0
+      .col-lg-8.order-lg-1
         p(data-aos="fade-left") Estas reglas son esenciales para derivar funciones más complejas que involucran productos y cocientes, y tienen numerosas aplicaciones en la modelización económica y empresarial (Palacios Pineda, 2017).
         .bg-color-8.p-4.mb-3(data-aos="fade-left")
           h5 Ejemplo 
@@ -274,10 +265,10 @@
     p.mb-4 La regla de la cadena es una técnica poderosa para derivar funciones compuestas, es decir, funciones que están "anidadas" dentro de otras. Si g(x) es una función derivable y f(g(x)) es una función compuesta derivable, entonces la regla de la cadena establece que:
 
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/16.png", data-aos="zoom-in")
-      .col-lg-8.order-1.mb-3.mb-lg-0
+      .col-lg-8.order-lg-1
     
         .bg-color-8.p-4.mb-3(data-aos="fade-left")
           img(src="@/assets/curso/tema2/16-1.svg", style="max-width: 233px").mx-auto
