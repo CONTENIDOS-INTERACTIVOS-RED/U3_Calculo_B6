@@ -170,11 +170,6 @@ export default {
         'García Franchini, C. & Alvarado Arellano, M. (2016). Cálculo diferencial en competencias: ( ed.). Grupo Editorial Patria. ',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/40452',
     },
-    {
-      referencia:
-        'Bruzual, R. & Domínguez, M. (2016). Cálculo diferencial en varias variables: ( ed.). D - Universidad Central de Venezuela. ',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/117596?page=1',
-    },
   ],
   glosario: [
     {

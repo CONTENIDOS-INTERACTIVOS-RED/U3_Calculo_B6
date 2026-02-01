@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Título tema'")
+  BannerInterno(:subTitulo="'1. Derivadas'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .bg-full-width.bg_img
@@ -16,7 +16,7 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      h5.mb-1 Función Derivada ¿Cómo encontrarla? 
+                      h5.mb-1 Aplicaciones en la administración: crecimiento de ingresos, costos marginales y productividad
                       p.mb-0 Para ampliar los conceptos sobre Función derivada, le invitamos a ver el siguiente vídeo.
                     .col-sm-auto
                       a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/nrrYUA1XU3M " target="_blank")
